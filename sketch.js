@@ -324,10 +324,10 @@ function setMouseShape() {
           if (mousePlaquetteI === -1 && mousePlaquetteJ === np - 1) {
             rect(xOffset + (np - 1) * xSpacing + 0.5 * xSpacing, yOffset - ySpacing + 0.5 * ySpacing, xSpacing * 0.5, ySpacing * 0.5);
           }
-          if (mousePlaquetteI === np && mousePlaquetteJ === -1) {
+          if (mousePlaquetteI === np - 1 && mousePlaquetteJ === -1) {
             rect(xOffset - xSpacing + 0.5 * xSpacing, yOffset + (np - 1) * ySpacing + 0.5 * ySpacing, xSpacing * 0.5, ySpacing * 0.5);
           }
-          if (mousePlaquetteI === np && mousePlaquetteJ === np) {
+          if (mousePlaquetteI === np - 1 && mousePlaquetteJ === np - 1) {
             rect(xOffset - xSpacing + 0.5 * xSpacing, yOffset - ySpacing + 0.5 * ySpacing, xSpacing * 0.5, ySpacing * 0.5);
           }
         }
